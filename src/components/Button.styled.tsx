@@ -35,7 +35,7 @@ export const StyledBtn = styled.button<StyledBtnPropsType>` // <> to add our cus
       background-color: cadetblue;
     }
   `}
-  
+
   ${props => props.active && css<StyledBtnPropsType>`
     box-shadow: 5px 5px 5px 5px aqua;
   `}

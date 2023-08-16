@@ -3,6 +3,7 @@ import './App.css';
 import {StyledBtn} from "./components/Button.styled";
 import {Link} from "./components/Link.styled";
 import styled from "styled-components";
+import {myTheme} from "./styles/Theme.styled";
 
 function App() {
     return (
@@ -11,8 +12,8 @@ function App() {
 {/*                <StyledBtn color = "black" fontSize = "20px">Hello </StyledBtn>
                 <StyledBtn color = "red">Hello</StyledBtn>
                 <StyledBtn fontSize={"30px"}>Hello </StyledBtn>*/}
-                <StyledBtn btnType = {"primary"} active>Hello </StyledBtn>
-                <StyledBtn btnType = {"outlined"} >Hello </StyledBtn>
+                <StyledBtn color = {myTheme.colors.primary} btnType = {"primary"} active>Hello </StyledBtn>
+                <StyledBtn color = {myTheme.colors.secondary} btnType = {"outlined"} >Hello </StyledBtn>
 {/*             <input type={"text"}/>
                 <input type={"submit"}/>
                 <input type={"radio"}/>*/}
